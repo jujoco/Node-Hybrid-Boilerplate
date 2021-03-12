@@ -1,0 +1,61 @@
+{
+  "name": "mdn",
+  "version": "1.0.0",
+  "description": "Node.JS MVC Hybrid React boilerplate",
+  "main": "server.js",
+  "author": "jujoco",
+  "scripts": {
+    "start": " nodemon server.js -e ejs,html,js,css,jpg,png --ignore src/ ",
+    "webpack:dev": "webpack --config webpack.dev.js --watch",
+    "webpack:prod": "webpack --config webpack.prod.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jujoco/mdn.git"
+  },
+  "keywords": [
+    "jujoco"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jujoco/mdn#readme",
+  "bugs": {
+    "url": "https://github.com/jujoco/mdn/issues"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jestSetup.js"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "regenerator-runtime": "^0.13.7",
+    "reload": "^3.1.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0"
+  }
+}

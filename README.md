@@ -1,1 +1,23 @@
-# mdn
+# Node.JS MVC Hybrid React boilerplate
+
+## App Features
+
+- NODE.JS
+- EXPRESS Server
+- EJS TEMPLATING ENGINE
+- MVC File Structure
+- MONGODB
+- SCSS Style Modules
+- REACT UI FRAMEWORK
+- WEBPACK
+- BABEL
+- JEST FOR TESTING
+- AIRB&B ESLINT GUIDE
+
+> TODOs
+
+- STORYBOOK UI LIBRARY
+- TAILWIND CSS
+- TYPESCRIPT
+- HUSKY
+- CI/CD
